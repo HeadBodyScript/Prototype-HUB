@@ -1,0 +1,92 @@
+{
+	"textureSize": [64, 64],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 24.5, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -24, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, 11.5, -2, 8, 12, 4], "textureOffset": [16, 16]},
+				{"coordinates": [-3, 14, -1, 2, 7, 2], "textureOffset": [56, 44]},
+				{"coordinates": [1, 14, -1, 2, 7, 2], "textureOffset": [56, 55]},
+				{"coordinates": [-4, 12, -1, 8, 2, 2], "textureOffset": [0, 48]}
+			]
+		},
+		{
+			"part": "right_arm",
+			"id": "right_arm",
+			"invertAxis": "xy",
+			"translate": [-5, -22, 0],
+			"rotate": [-2, 0, -20],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-15.2, 10.3, -1.5, 4, 12, 4], "textureOffset": [32, 48]}
+			]
+		},
+		{
+			"part": "left_arm",
+			"id": "left_arm",
+			"invertAxis": "xy",
+			"translate": [5, -22, 0],
+			"rotate": [2, 0, 20],
+			"mirrorTexture": "u",
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [11.1, 10.38, -2.3, 4, 12, 4], "textureOffset": [40, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "right_leg",
+			"id": "right_leg",
+			"invertAxis": "xy",
+			"translate": [-1.9, -12, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-4, -0.45, -2, 4, 12, 4], "textureOffset": [16, 48]}
+			]
+		},
+		{
+			"part": "left_leg",
+			"id": "left_leg",
+			"invertAxis": "xy",
+			"translate": [1.9, -12, 0],
+			"mirrorTexture": "u",
+			"submodels": [
+				{
+					"invertAxis": "xy",
+					"mirrorTexture": "u",
+					"boxes": [
+						{"coordinates": [0, -0.45, -2, 4, 12, 4], "textureOffset": [0, 16]}
+					]
+				}
+			]
+		},
+		{
+			"part": "base",
+			"id": "base",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"mirrorTexture": "u",
+			"boxes": [
+				{"coordinates": [-6, -12.6, -6, 12, 1, 12], "textureOffset": [0, 32]}
+			]
+		}
+	]
+}
