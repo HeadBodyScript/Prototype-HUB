@@ -20,5 +20,5 @@ https://namemc.com/skin/1b9fcd9f5a13c778
 -Pride
 https://namemc.com/skin/ef0a488339b4b0ab
 
--Rainbow
+-Mirror
 https://namemc.com/skin/bd6d62f36327281e
